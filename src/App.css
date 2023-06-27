@@ -1,3 +1,6 @@
+*{
+    font-family:monospace;
+}
 header{
     display: flex;
     justify-content: center;
