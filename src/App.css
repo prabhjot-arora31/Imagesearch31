@@ -23,6 +23,9 @@ header button:hover {
 .mainDiv{
     width: 20rem;
 }
+.mainDiv:hover{
+    width:22.5rem;
+}
 .mainDiv img{
     width: 100%;
     margin: 0.8rem;
