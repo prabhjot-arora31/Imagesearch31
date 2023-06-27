@@ -19,7 +19,7 @@ const App = () => { // creating component named App
         {
             setCircularIndicatorColor('blue')
             //fetching the external unsplash Image API and waiting for it to arrive
-        const res = await fetch(`https://api.unsplash.com/search/photos/?query=${searchItem}&per_page=${noOfImages}&client_id=5NCCvnVoz2dcOwT0duPKJfT3NuCVnz0LOHF5T1Miuro`)
+        const res = await fetch(`https://api.unsplash.com/search/photos/?query=${searchItem}&per_page=${noOfImages}&client_id=5NCCvnVoz2dcOwT0duPKJfT3NuCVnz0LOHF5T1Miuro&h=600&w=600`)
         //waiting for converting the response given from API into JSON 
         const data1 = await res.json();
         //updating the state variable data using the method setData() from API responded data
