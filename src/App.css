@@ -39,7 +39,7 @@ header button:hover {
 section {
     margin-top: 2rem;
     display: flex;
-    gap: 11.7rem;
+    gap: 1.7rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
