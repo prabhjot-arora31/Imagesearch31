@@ -25,7 +25,7 @@ header button:hover {
 }
 .mainDiv img{
     width: 100%;
-    box-shadow:4px 4px lightblue;
+    box-shadow:11px 11px 4px lightblue;
 }
 section {
     margin-top: 2rem;
