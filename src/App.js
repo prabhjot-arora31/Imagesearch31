@@ -36,7 +36,7 @@ const App = () => { // creating component named App
                 setSearchItem(e.target.value)
                 console.log(searchItem)
             }}/>
-            <input type="number" placeholder="how many images you want?"
+            <input type="number" placeholder="No. of images ?"
             value={noOfImages} onChange={(e)=>{
                 setNoOfImages(e.target.value)
             }}
