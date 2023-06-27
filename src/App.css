@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: center;
-    gap: 3.2rem;
+    gap: 2rem;
     align-items: center;
     flex-wrap: wrap;
     /* flex-direction: column; */
