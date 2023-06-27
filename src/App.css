@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+header input{
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+}
+header button {
+    border-radius: 0.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+header button:hover {
+    cursor: pointer;
+}
+.mainDiv{
+    width: 20rem;
+}
+.mainDiv img{
+    width: 100%;
+}
+section {
+    margin-top: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
