@@ -22,6 +22,7 @@ header button:hover {
 }
 .mainDiv{
     width: 20rem;
+    border-radius:0.8rem;
 }
 .mainDiv:hover{
     width:22.5rem;
