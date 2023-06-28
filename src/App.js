@@ -46,7 +46,7 @@ const App = () => { // creating component named App
             />
             <button onClick={searchImage}>Search</button>
         </header>
-                 <div style={{display:'flex',width:'100%',justifyContent:'center',alignItems:'center'}}>
+                 <div style={{display:'flex',width:'100%',justifyContent:'center',alignItems:'center',marginTop:'0.8rem'}}>
                  <button style={{padding:'0.8rem'}}>Download Android APK</button>
                  </div>
         <section>
