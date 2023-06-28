@@ -1,5 +1,5 @@
 import React, { useState } from "react"; //importing React and useState hook from react
-import { CircularProgress } from "@mui/material";
+import { CircularProgress } from "@mui/material"; //importing CircularProgress i.e loading animation
 import './App.css'  //importing App.css file from the same folder
 const App = () => { // creating component named App
      //defining state variables using hooks
@@ -10,7 +10,7 @@ const App = () => { // creating component named App
     const [noOfImages , setNoOfImages] = useState();
     // creating function searchImage which is called after pressing the button "Search"
     const searchImage = (e) => {
-        e.preventDefault(); // preventing the default behaviour of the button click
+        e.preventDefault(); // preventing the default behaviour after the button click
         // if resubmitted , setting the value of data to empty array
         setData([]);
         // if resubmitted ,  again setting the value of isLoading to true so that loading icon could show up
@@ -24,18 +24,20 @@ const App = () => { // creating component named App
         const data1 = await res.json();
         //updating the state variable data using the method setData() from API responded data
         setData(data1.results);
+        //setting isLoading state variable to false so that, after Images arrived , Images should display and not loading animation.
         setIsLoading(false);
         }
         call(); //calling the call method
     }
     return ( //returning the JSX from the App component
         <>
-        <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1>
+        <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1> 
         <header>
             <input type="text" placeholder="Enter anything" value={searchItem} onChange={(e)=>{
                 setSearchItem(e.target.value)
                 console.log(searchItem)
             }}/>
+     
             <input type="number" placeholder="No. of images ?"
             value={noOfImages} onChange={(e)=>{
                 setNoOfImages(e.target.value)
