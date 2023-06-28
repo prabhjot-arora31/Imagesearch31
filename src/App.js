@@ -31,7 +31,7 @@ const App = () => { // creating component named App
     }
     return ( //returning the JSX from the App component
         <>
-         <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed',display:'block'}}>Download Android APK</button>
+         <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed',marginLeft:'0.5rem'}}>Download Android APK</button>
      </centre>
         <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1> 
         <header style={{position:'fixed'}}>
