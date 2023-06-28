@@ -31,6 +31,8 @@ const App = () => { // creating component named App
     }
     return ( //returning the JSX from the App component
         <>
+         <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed'}}>Download Android APK</button>
+     </centre>
         <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1> 
         <header>
             <input type="text" placeholder="Enter anything" value={searchItem} onChange={(e)=>{
