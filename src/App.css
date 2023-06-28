@@ -7,7 +7,6 @@ header{
     gap: 2rem;
     align-items: center;
     flex-wrap: wrap;
-    /* flex-direction: column; */
 }
 header input{
     padding: 0.6rem;
