@@ -31,8 +31,7 @@ const App = () => { // creating component named App
     }
     return ( //returning the JSX from the App component
         <>
-         <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed',marginLeft:'0.5rem'}}>Download Android APK</button>
-     </centre>
+       
         <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1> 
         <header>
             <input type="text" placeholder="Enter anything" value={searchItem} onChange={(e)=>{
@@ -47,6 +46,8 @@ const App = () => { // creating component named App
             />
             <button onClick={searchImage}>Search</button>
         </header>
+                   <center><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed',marginLeft:'0.5rem'}}>Download Android APK</button>
+     </center>
         <section>
             {
               isLoading ? <CircularProgress style={{color:`${circularIndicatorColor}`,position:'relative',top:'15rem' , width:'5rem'}}/> : 
