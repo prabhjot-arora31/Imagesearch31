@@ -31,10 +31,10 @@ const App = () => { // creating component named App
     }
     return ( //returning the JSX from the App component
         <>
-         <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed'}}>Download Android APK</button>
+         <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed',display:'block'}}>Download Android APK</button>
      </centre>
         <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1> 
-        <header>
+        <header style={{position:'fixed'}}>
             <input type="text" placeholder="Enter anything" value={searchItem} onChange={(e)=>{
                 setSearchItem(e.target.value)
                 console.log(searchItem)
