@@ -34,7 +34,7 @@ const App = () => { // creating component named App
          <centre><button style={{marginTop:'0.7rem',padding:'0.8rem',borderRadius:'0.9rem',position:'fixed',marginLeft:'0.5rem'}}>Download Android APK</button>
      </centre>
         <h1 style={{textAlign:'center' , textTransform:'uppercase'}}>Image Searcher</h1> 
-        <header style={{position:'fixed'}}>
+        <header>
             <input type="text" placeholder="Enter anything" value={searchItem} onChange={(e)=>{
                 setSearchItem(e.target.value)
                 console.log(searchItem)
