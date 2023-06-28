@@ -45,8 +45,10 @@ const App = () => { // creating component named App
             }}
             />
             <button onClick={searchImage}>Search</button>
-        </header><button style={{width:'100%',marginTop:'0.7rem',padding:'0.8rem',marginLeft:'auto',marginRight:'auto',borderRadius:'0.9rem',position:'fixed',marginLeft:'0.5rem'}}>Download Android APK</button>
-     
+        </header>
+                 <div style={{disply:'flex',justifyContent:'center',alignItems:'center'}}>
+                 <button>Download Android APK</button>
+                 </div>
         <section>
             {
               isLoading ? <CircularProgress style={{color:`${circularIndicatorColor}`,position:'relative',top:'15rem' , width:'5rem'}}/> : 
