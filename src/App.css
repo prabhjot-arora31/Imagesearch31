@@ -8,6 +8,9 @@ header{
     align-items: center;
     flex-wrap: wrap;
 }
+.download:hover{
+    cursor:pointer;
+}
 header input{
     padding: 0.6rem;
     border-radius: 0.3rem;
